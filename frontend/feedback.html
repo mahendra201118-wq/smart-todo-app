@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Feedback Form</title>
+  <link rel="stylesheet" href="./css/feedback.css">
+</head>
+<body>
+  <div class="feedback-container">
+    <h2>Share Your Feedback</h2>
+    <form id="feedbackForm" action="http://localhost:3000/">
+      <input type="text" id="name" placeholder="Your Name" required>
+      <input type="email" id="email" placeholder="Your Email" required>
+      <textarea id="message" placeholder="Your Feedback" required></textarea>
+      <button type="submit">Submit</button>
+    </form>
+    <p id="responseMessage"></p>
+  </div>
+
+  <script src="./js/feedback.js"></script>
+</body>
+</html>
